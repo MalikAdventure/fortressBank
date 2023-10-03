@@ -1,0 +1,109 @@
+.header {
+	background-color: var(--lightGrey);
+	padding: 5px 0px;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: var(--black)
+	}
+
+	&__img {
+		margin-right: 5px;
+	}
+
+	&__box {
+		text-align: center;
+	}
+
+	&__name {
+		font-size: 1.5rem;
+		color: var(--grey);
+		margin: 0;
+
+		span {
+			color: var(--azure);
+			font-weight: 700;
+		}
+	}
+
+	&__designation {
+		font-size: 1rem;
+		color: var(--lightAzure);
+		margin: 0;
+	}
+}
+
+.nav {
+	&__list {
+		padding: 0;
+		font-size: 1.25rem;
+		display: flex;
+		list-style-type: none;
+	}
+
+	&__item {
+		margin-right: 80px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		a {
+			text-decoration: none;
+			color: var(--grey);
+
+			&:hover {
+				color: var(--azure);
+			}
+		}
+	}
+}
+
+.location {
+	font-size: 1rem;
+	color: var(--grey);
+	height: fit-content;
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+
+	&__img {
+		margin-right: 5px;
+	}
+
+	&:hover {
+		color: var(--azure);
+	}
+}
+
+.exit {
+	display: flex;
+	text-decoration: none;
+	color: var(--grey);
+
+	&__img {
+		margin-right: 5px;
+	}
+
+	&__name {
+		font-size: 1.25rem;
+
+		span {
+			color: var(--azure);
+		}
+	}
+
+	&:hover {
+		color: var(--azure);
+	}
+}
