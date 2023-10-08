@@ -1,0 +1,35 @@
+.exchanger {
+	// padding: 60px 0px;
+	// background: var(--lightGrey);
+	width: 50%;
+	margin-right: 100px;
+
+	&__title {
+		font-size: 2.5rem;
+		margin-bottom: 60px;
+	}
+
+	// &__table {
+	// 	width: 45%;
+	// }
+
+	&__names {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__name {
+		font-size: 2rem;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__item {
+		font-size: 2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+}
