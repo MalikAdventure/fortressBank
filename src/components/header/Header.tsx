@@ -2,6 +2,8 @@
 
 import './Header.scss';
 
+//!! dropdown - выпадающий список
+
 import logo from '../../assets/icons/logo.svg';
 // import location from '../../assets/icons/location.svg';
 // import exit from '../../assets/icons/exit.svg';
