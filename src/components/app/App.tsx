@@ -8,6 +8,7 @@ import Calculator from '../calculator/Calculator';
 import Exchanger from '../exchanger/Exchanger';
 import Map from '../map/Map';
 import News from '../news/News';
+import Footer from '../footer/Footer';
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
 				</div>
 			</div>
 			<News />
+			<Footer />
 		</>
 	);
 };

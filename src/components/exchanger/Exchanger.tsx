@@ -1,5 +1,7 @@
 import './Exchanger.scss';
 
+//!!! сделать через grid
+
 const Exchanger = () => {
 	return (
 		<section className='exchanger'>
