@@ -1,0 +1,32 @@
+.deposits {
+	padding: 60px;
+}
+
+.deposits-item {
+	width: 100%;
+	padding: 60px;
+	background: var(--lightGrey);
+	border-radius: 25px;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 0;
+
+	&__description {
+		width: 60%;
+	}
+
+	&__box {
+		display: flex;
+	}
+
+	&__item {
+		margin-right: 60px;
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+	}
+}

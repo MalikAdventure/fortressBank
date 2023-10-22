@@ -40,7 +40,7 @@ const Slider = () => {
 				<button className='slider__arrow slider__arrow_next' onClick={nextSlide}>
 					<img src={arrow} alt="вперед" />
 				</button>
-				<button className='slider__button'>Подробнее</button>
+				<button className='slider__button button'>Подробнее</button>
 				<div className="slider__box">
 					{images.map((_, index) => (
 						<button

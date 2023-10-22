@@ -1,18 +1,13 @@
 .calculator {
 	padding: 60px 0px;
 
-	&__title {
-		font-size: 2.5rem;
-		margin-bottom: 60px;
-	}
-
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
 	}
 }
 
-.left-wrapper-calculator {
+.calculator-left-wrapper {
 	width: 50%;
 	margin-right: 100px;
 
@@ -39,10 +34,6 @@
 		}
 	}
 
-	&__name {
-		font-size: 2rem;
-	}
-
 	&__input {
 		width: 100%;
 		height: 60px;
@@ -59,7 +50,7 @@
 	}
 }
 
-.right-wrapper-calculator {
+.calculator-right-wrapper {
 	width: 50%;
 	background: var(--lightGrey);
 	padding: 30px;
@@ -79,14 +70,9 @@
 		justify-content: space-between;
 	}
 
-	&__name {
-		font-size: 2rem;
-	}
-
 	&__value {
-		font-size: 2rem;
-
 		&_button {
+			font-size: 2rem;
 			cursor: pointer;
 			border: none;
 			background: none;
@@ -96,22 +82,6 @@
 			&:hover {
 				color: var(--azure);
 			}
-		}
-	}
-
-	&__button {
-		width: 400px;
-		height: 60px;
-		font-size: 2rem;
-		font-weight: 700;
-		color: var(--white);
-		background: var(--lightAzure);
-		border: none;
-		cursor: pointer;
-		border-radius: 15px;
-
-		&:hover {
-			background: var(--azure);
 		}
 	}
 }

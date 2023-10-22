@@ -1,0 +1,23 @@
+.services {
+	padding: 60px;
+	&__box {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.services-item {
+	background: var(--lightGrey);
+	border-radius: 30px;
+	width: 570px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+	&__img {
+		width: 100%;
+	}
+
+	&__box {
+		padding: 20px;
+	}
+}

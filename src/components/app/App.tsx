@@ -1,30 +1,31 @@
+import { Routes, Route } from 'react-router-dom';
+
 import 'normalize.css';
 
 import './App.scss';
 
-import Header from '../header/Header';
-import Slider from '../slider/Slider';
-import Calculator from '../calculator/Calculator';
-import Exchanger from '../exchanger/Exchanger';
-import Map from '../map/Map';
-import News from '../news/News';
-import Footer from '../footer/Footer';
+import Layout from '../../pages/Layout';
+
+import MainPage from '../../pages/MainPage';
+import CreditsPage from '../../pages/CreditsPage';
+import DepositsPage from '../../pages/DepositsPage';
+import ServicesPage from '../../pages/ServicesPage';
+import NotFound from '../notFound/notFound';
+
 
 const App = () => {
 
 	return (
 		<>
-			<Header />
-			<Slider />
-			<Calculator />
-			<div className='currency-exchanger'>
-				<div className='currency-exchanger__container container'>
-					<Exchanger />
-					<Map />
-				</div>
-			</div>
-			<News />
-			<Footer />
+			<Routes>
+				<Route path='/' element={<Layout />}>
+					<Route index element={<MainPage />}></Route>
+					<Route path='credits' element={<CreditsPage />}></Route>
+					<Route path='deposits' element={<DepositsPage />}></Route>
+					<Route path='services' element={<ServicesPage />}></Route>
+					<Route path='*' element={<NotFound />}></Route>
+				</Route>
+			</Routes>
 		</>
 	);
 };

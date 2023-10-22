@@ -43,21 +43,9 @@
 	}
 
 	&__button {
-		width: 400px;
-		height: 60px;
-		background: var(--grey);
-		color: var(--white);
-		border: none;
-		cursor: pointer;
-		border-radius: 15px;
-		font-size: 2rem;
 		position: absolute;
 		left: 60px;
 		bottom: 60px;
-
-		&:hover {
-			background: var(--lightAzure);
-		}
 	}
 
 	&__box {
