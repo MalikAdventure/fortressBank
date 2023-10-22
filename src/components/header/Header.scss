@@ -41,7 +41,7 @@
 	}
 }
 
-.nav-header {
+.header-nav {
 	&__list {
 		padding: 0;
 		font-size: 1.25rem;
@@ -67,7 +67,7 @@
 	}
 }
 
-.location-header {
+.header-location {
 	font-size: 1rem;
 	color: var(--grey);
 	height: fit-content;
@@ -86,7 +86,7 @@
 	}
 }
 
-.exit-header {
+.header-exit {
 	display: flex;
 	text-decoration: none;
 	color: var(--grey);

@@ -2,12 +2,6 @@
 	background-color: var(--grey);
 	padding: 60px;
 
-	// &__container {
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	align-items: center;
-	// }
-
 	&__header {
 		display: flex;
 		justify-content: space-between;
@@ -45,53 +39,9 @@
 		color: var(--lightGrey);
 		margin: 0;
 	}
-
-	&__hr {
-		width: 100%;
-		border: 2px solid var(--white);
-		border-radius: 20px;
-		margin: 40px 0 40px 0;
-	}
-
-	&__text {
-		font-size: 1.25rem;
-		color: var(--white);
-	}
-
-	&__content {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	&__trademark-text {
-		width: 30%;
-		font-size: 1.25rem;
-		color: var(--white);
-	}
-
-	&__network-text {
-		font-size: 1.25rem;
-		font-weight: 700;
-		color: var(--white);
-	}
-
-	&__network-img {
-		margin-right: 30px;
-	}
-
-	&__contacts-title {
-		font-size: 1.25rem;
-		font-weight: 700;
-		color: var(--white);
-	}
-
-	&__contacts-text {
-		font-size: 1.25rem;
-		color: var(--white);
-	}
 }
 
-.nav-footer {
+.footer-nav {
 	&__list {
 		padding: 0;
 		font-size: 1.25rem;
@@ -117,7 +67,7 @@
 	}
 }
 
-.location-footer {
+.footer-location {
 	font-size: 1rem;
 	color: var(--white);
 	height: fit-content;
@@ -136,7 +86,7 @@
 	}
 }
 
-.exit-footer {
+.footer-exit {
 	display: flex;
 	text-decoration: none;
 	color: var(--white);
@@ -155,5 +105,70 @@
 
 	&:hover {
 		color: var(--azure);
+	}
+}
+
+.footer-note {
+	&__hr {
+		width: 100%;
+		border: 2px solid var(--white);
+		border-radius: 20px;
+		margin: 40px 0 40px 0;
+	}
+
+	&__box {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__text {
+		font-size: 1.25rem;
+		color: var(--white);
+	}
+
+	&__title {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--white);
+	}
+
+	&__imgs {
+		display: flex;
+	}
+
+	&__img {
+		width: 60px;
+		height: 60px;
+		display: block;
+		background-repeat: no-repeat;
+		margin-right: 30px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&_telegram {
+			background-image: url(../../assets/icons/telegram.png);
+
+			&:hover {
+				background-image: url(../../assets//icons/telegram-hover.png);
+			}
+		}
+
+		&_vk {
+			background-image: url(../../assets/icons/vk.png);
+
+			&:hover {
+				background-image: url(../../assets//icons/vk-hover.png);
+			}
+		}
+
+		&_twitter {
+			background-image: url(../../assets/icons/twitter.png);
+
+			&:hover {
+				background-image: url(../../assets//icons/twitter-hover.png);
+			}
+		}
 	}
 }
