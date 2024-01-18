@@ -10,7 +10,8 @@ import MainPage from '../../pages/MainPage';
 import CreditsPage from '../../pages/CreditsPage';
 import DepositsPage from '../../pages/DepositsPage';
 import ServicesPage from '../../pages/ServicesPage';
-import NotFound from '../notFound/notFound';
+import SignInPage from '../../pages/SignInPage';
+import NotFound from '../notFound/NotFound';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
 					<Route path='credits' element={<CreditsPage />}></Route>
 					<Route path='deposits' element={<DepositsPage />}></Route>
 					<Route path='services' element={<ServicesPage />}></Route>
+					<Route path='signIn' element={<SignInPage />}></Route>
 					<Route path='*' element={<NotFound />}></Route>
 				</Route>
 			</Routes>

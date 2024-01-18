@@ -1,0 +1,19 @@
+.up {
+	opacity: 80%;
+
+	&__button {
+		width: 80px;
+		height: 80px;
+		border: none;
+		cursor: pointer;
+		background: none;
+		background-image: url(../../assets/icons/up.png);
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+
+		&:hover {
+			background-image: url(../../assets/icons/up-hover.png);
+		}
+	}
+}
