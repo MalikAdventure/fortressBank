@@ -3,6 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import './SignIn.scss';
 import { IShippingFields } from "./SignInInterface";
 
+//!!! https://www.youtube.com/watch?v=1_4yH0C9iq0&list=WL&index=12&t=426s
 //!!! доделать по видео 14:30
 
 const SignIn = () => {
