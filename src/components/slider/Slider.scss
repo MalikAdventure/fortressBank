@@ -18,27 +18,18 @@
 		height: 100%;
 	}
 
-	&__arrow {
-		width: 80px;
-		height: 80px;
-		background: var(--grey);
-		border: none;
-		cursor: pointer;
-		border-radius: 15px;
+	&__arrows {
 		position: absolute;
-		top: 50%;
+		top: 45%;
+		padding: 0 60px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
 
-		&:hover {
-			background: var(--lightAzure);
-		}
-
-		&_perv {
-			left: 60px;
-		}
-
+	&__arrow-img {
 		&_next {
 			transform: rotate(180deg);
-			right: 60px;
 		}
 	}
 

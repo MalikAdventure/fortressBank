@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import './Slider.scss';
 
+import SliderArrow from '../UI/buttons/sliderArrow/SliderArrow';
+
 import arrow from '../../assets/icons/arrow.svg';
 
 import event1 from '../../assets/imgs/events-1.png';
@@ -34,12 +36,14 @@ const Slider = () => {
 				<div className='slider__window'>
 					<img className='slider__img' src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
 				</div>
-				<button className='slider__arrow slider__arrow_perv' onClick={prevSlide}>
-					<img src={arrow} alt="назад" />
-				</button>
-				<button className='slider__arrow slider__arrow_next' onClick={nextSlide}>
-					<img src={arrow} alt="вперед" />
-				</button>
+				<div className='slider__arrows'>
+					<SliderArrow onClick={prevSlide}>
+						<img className='slider__arrow-img slider__arrow-img_prev' src={arrow} alt="назад" />
+					</SliderArrow>
+					<SliderArrow onClick={nextSlide}>
+						<img className='slider__arrow-img slider__arrow-img_next' src={arrow} alt="вперед" />
+					</SliderArrow>
+				</div>
 				<button className='slider__button button'>Подробнее</button>
 				<div className="slider__box">
 					{images.map((_, index) => (

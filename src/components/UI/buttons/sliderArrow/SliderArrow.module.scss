@@ -1,0 +1,38 @@
+.SliderArrow {
+	width: 80px;
+	height: 80px;
+	background: var(--grey);
+	border: none;
+	cursor: pointer;
+	border-radius: 15px;
+
+	&:hover {
+		background: var(--lightAzure);
+	}
+}
+
+
+
+// &__arrow {
+// 	width: 80px;
+// 	height: 80px;
+// 	background: var(--grey);
+// 	border: none;
+// 	cursor: pointer;
+// 	border-radius: 15px;
+// 	position: absolute;
+// 	top: 50%;
+
+// 	&:hover {
+// 		background: var(--lightAzure);
+// 	}
+
+// 	&_perv {
+// 		left: 60px;
+// 	}
+
+// 	&_next {
+// 		transform: rotate(180deg);
+// 		right: 60px;
+// 	}
+// }
