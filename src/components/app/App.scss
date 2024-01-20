@@ -22,74 +22,74 @@
 	margin-bottom: 60px;
 }
 
-.button {
-	width: 400px;
-	height: 60px;
-	background: var(--grey);
-	color: var(--white);
-	border: none;
-	cursor: pointer;
-	border-radius: 15px;
-	font-size: 2rem;
+// .button {
+// 	width: 400px;
+// 	height: 60px;
+// 	background: var(--grey);
+// 	color: var(--white);
+// 	border: none;
+// 	cursor: pointer;
+// 	border-radius: 15px;
+// 	font-size: 2rem;
 
-	&:hover {
-		background: var(--lightAzure);
-	}
+// 	&:hover {
+// 		background: var(--lightAzure);
+// 	}
 
-	&_azure {
-		background: var(--lightAzure);
+// 	&_azure {
+// 		background: var(--lightAzure);
 
-		&:hover {
-			background: var(--azure);
-		}
-	}
-}
+// 		&:hover {
+// 			background: var(--azure);
+// 		}
+// 	}
+// }
 
-.button-line {
-	font-size: 2rem;
-	border: none;
-	background: none;
-	cursor: pointer;
-	text-decoration-line: underline;
-}
+// .button-line {
+// 	font-size: 2rem;
+// 	border: none;
+// 	background: none;
+// 	cursor: pointer;
+// 	text-decoration-line: underline;
+// }
 
-.button-link {
-	width: 400px;
-	height: 60px;
-	background: var(--grey);
-	color: var(--white);
-	border: none;
-	border-radius: 15px;
-	font-size: 2rem;
-	text-decoration-line: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+// .button-link {
+// 	width: 400px;
+// 	height: 60px;
+// 	background: var(--grey);
+// 	color: var(--white);
+// 	border: none;
+// 	border-radius: 15px;
+// 	font-size: 2rem;
+// 	text-decoration-line: none;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
 
-	&:hover {
-		background: var(--lightAzure);
-	}
+// 	&:hover {
+// 		background: var(--lightAzure);
+// 	}
 
-	&_azure {
-		background: var(--lightAzure);
+// 	&_azure {
+// 		background: var(--lightAzure);
 
-		&:hover {
-			background: var(--azure);
-		}
-	}
-}
+// 		&:hover {
+// 			background: var(--azure);
+// 		}
+// 	}
+// }
 
 .container {
 	width: 1800px;
 	margin: 0 auto;
 }
 
-.currency-exchanger {
-	padding: 60px 0px;
-	background: var(--lightGrey);
+// .currency-exchanger {
+// 	padding: 60px 0px;
+// 	background: var(--lightGrey);
 
-	&__container {
-		display: flex;
-		justify-content: space-between;
-	}
-}
+// 	&__container {
+// 		display: flex;
+// 		justify-content: space-between;
+// 	}
+// }
