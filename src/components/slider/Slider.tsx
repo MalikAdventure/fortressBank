@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './Slider.scss';
 
 import SliderArrow from '../UI/buttons/sliderArrow/SliderArrow';
+import GreyButton from '../UI/buttons/greyButton/GreyButton';
 
 import arrow from '../../assets/icons/arrow.svg';
 
@@ -44,7 +45,7 @@ const Slider = () => {
 						<img className='slider__arrow-img slider__arrow-img_next' src={arrow} alt="вперед" />
 					</SliderArrow>
 				</div>
-				<button className='slider__button button'>Подробнее</button>
+				<GreyButton className='slider__button'>Подробнее</GreyButton>
 				<div className="slider__box">
 					{images.map((_, index) => (
 						<button

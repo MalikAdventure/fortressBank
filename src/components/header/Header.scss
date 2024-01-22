@@ -7,108 +7,23 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-
-	&__logo {
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-		color: var(--black)
-	}
-
-	&__img {
-		margin-right: 5px;
-	}
-
-	&__box {
-		text-align: center;
-	}
-
-	&__name {
-		font-size: 1.5rem;
-		color: var(--darkGrey);
-		margin: 0;
-
-		span {
-			color: var(--azure);
-			font-weight: 700;
-		}
-	}
-
-	&__designation {
-		font-size: 1rem;
-		color: var(--lightAzure);
-		margin: 0;
-	}
 }
 
-.header-nav {
-	&__list {
-		padding: 0;
-		font-size: 1.25rem;
-		display: flex;
-		list-style-type: none;
-	}
+// .header-location {
+// 	font-size: 1rem;
+// 	color: var(--darkGrey);
+// 	height: fit-content;
+// 	border: none;
+// 	background: none;
+// 	cursor: pointer;
+// 	display: flex;
+// 	align-items: center;
 
-	&__item {
-		margin-right: 80px;
+// 	&__img {
+// 		margin-right: 5px;
+// 	}
 
-		&:last-child {
-			margin-right: 0;
-		}
-
-		a {
-			text-decoration: none;
-			color: var(--darkGrey);
-
-			&:hover {
-				color: var(--azure);
-			}
-		}
-	}
-}
-
-.header-location {
-	font-size: 1rem;
-	color: var(--darkGrey);
-	height: fit-content;
-	border: none;
-	background: none;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-
-	&__img {
-		margin-right: 5px;
-	}
-
-	&:hover {
-		color: var(--azure);
-	}
-}
-
-.header-exit {
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	color: var(--darkGrey);
-
-	&__img {
-		margin-right: 5px;
-	}
-
-	&__name {
-		font-size: 1.25rem;
-
-		span {
-			color: var(--azure);
-		}
-	}
-
-	&:hover {
-		color: var(--azure);
-
-		.header-exit__img {
-			filter: invert(54%) sepia(91%) saturate(3308%) hue-rotate(158deg) brightness(95%) contrast(87%);
-		}
-	}
-}
+// 	&:hover {
+// 		color: var(--azure);
+// 	}
+// }

@@ -1,0 +1,96 @@
+.navigate-header {
+	&__logo {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: var(--black)
+	}
+
+	&__img {
+		margin-right: 5px;
+	}
+
+	&__box {
+		text-align: center;
+	}
+
+	&__name {
+		color: var(--darkGrey);
+
+		span {
+			color: var(--azure);
+			font-weight: 700;
+		}
+	}
+
+	&__designation {
+		color: var(--lightAzure);
+
+		&_footer {
+			color: var(--grey);
+		}
+	}
+}
+
+.navigate-header-nav {
+	&__list {
+		display: flex;
+		list-style-type: none;
+	}
+
+	&__item {
+		margin-right: 100px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		text-decoration: none;
+		color: var(--darkGrey);
+
+		&_footer {
+			color: var(--white);
+		}
+
+		&:hover {
+			color: var(--azure);
+		}
+	}
+}
+
+.navigate-header-exit {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+
+	&__img {
+		margin-right: 5px;
+	}
+
+	&__name {
+		span {
+			color: var(--azure);
+		}
+	}
+
+	&:hover {
+		.navigate-header-exit__img {
+			filter: invert(54%) sepia(91%) saturate(3308%) hue-rotate(158deg) brightness(95%) contrast(87%);
+		}
+
+		.navigate-header-exit__text {
+			color: var(--azure);
+		}
+	}
+
+
+	&__text {
+		color: var(--darkGrey);
+
+		&_footer {
+			color: var(--white);
+		}
+	}
+}
