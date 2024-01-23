@@ -1,0 +1,14 @@
+.AttractButton {
+	width: 400px;
+	height: 60px;
+	background: var(--lightAzure);
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 2rem;
+
+	&:hover {
+		background: var(--azure);
+	}
+}
