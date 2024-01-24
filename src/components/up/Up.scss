@@ -15,5 +15,9 @@
 		&:hover {
 			background-image: url(../../assets/icons/up-hover.png);
 		}
+
+		&:active {
+			background-image: url(../../assets/icons/up-click.png);
+		}
 	}
 }
