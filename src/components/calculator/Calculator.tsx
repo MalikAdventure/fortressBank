@@ -1,9 +1,18 @@
 import './calculator.scss';
 
+import SwitchButton from '../UI/buttons/switchButton/SwitchButton';
 import UsualButton from '../UI/buttons/usualButton/UsualButton';
 import AttractButton from '../UI/buttons/attractButton/AttractButton';
+import UsualInput from '../UI/inputs/usualInput/UsualInput';
 
 const Calculator = () => {
+
+	//! добавить стили для текста
+	//! доделать функцию
+	const click = () => {
+		console.log('клик');
+	};
+
 	return (
 		<section className='calculator'>
 			<div className='calculator__container container'>
@@ -16,11 +25,24 @@ const Calculator = () => {
 						</div>
 						<div className='calculator-left-wrapper__box'>
 							<h3 className='calculator-left-wrapper__name'>Сумма кредита</h3>
-							<input className='calculator-left-wrapper__input' />
+							<UsualInput className='calculator-left-wrapper__input' placeholder='Введите сумму кредита' />
 						</div>
+						{/* <div className='calculator-left-wrapper__box'>
+							<h3 className='calculator-left-wrapper__name'>Срок кредита (месяцев)</h3>
+							<UsualInput className='calculator-left-wrapper__input' />
+						</div> */}
 						<div className='calculator-left-wrapper__box'>
 							<h3 className='calculator-left-wrapper__name'>Срок кредита (месяцев)</h3>
-							<input className='calculator-left-wrapper__input' />
+							<div className='calculator-left-wrapper__buttons'>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>3</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>6</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>9</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>12</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>15</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>18</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>21</SwitchButton>
+								<SwitchButton onClick={click} className='calculator-left-wrapper__button'>24</SwitchButton>
+							</div>
 						</div>
 					</div>
 					<div className='calculator__right-wrapper calculator-right-wrapper'>

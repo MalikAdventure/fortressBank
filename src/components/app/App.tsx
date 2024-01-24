@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom';
+import './App.scss';
 
 import 'normalize.css';
 
-import './App.scss';
+import { Routes, Route } from 'react-router-dom';
 
 import Layout from '../../pages/Layout';
 

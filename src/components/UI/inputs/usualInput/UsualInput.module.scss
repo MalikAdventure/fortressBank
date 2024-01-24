@@ -1,0 +1,32 @@
+.UsualInput {
+	padding: 10px;
+	width: 100%;
+	border: 4px solid var(--grey);
+	border-radius: 15px;
+	background: var(--lightGrey);
+	font-size: 2rem;
+
+	&::placeholder {
+		font-size: 2rem;
+		font-weight: 700;
+		color: var(--grey);
+	}
+
+	&:hover {
+		border-color: var(--azure);
+	}
+
+	&:focus {
+		border-color: var(--black);
+		outline: none;
+	}
+
+	&:disabled {
+		border-color: var(--darkGrey);
+		background: var(--greyBg);
+
+		&::placeholder {
+			color: var(--darkGrey);
+		}
+	}
+}

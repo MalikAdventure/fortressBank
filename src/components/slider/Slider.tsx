@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import './Slider.scss';
 
-import SliderArrow from '../UI/buttons/sliderArrow/SliderArrow';
+import SwitchButton from '../UI/buttons/switchButton/SwitchButton';
 import UsualButton from '../UI/buttons/usualButton/UsualButton';
 
 import arrow from '../../assets/icons/arrow.svg';
@@ -38,12 +38,12 @@ const Slider = () => {
 					<img className='slider__img' src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
 				</div>
 				<div className='slider__arrows'>
-					<SliderArrow onClick={prevSlide} className='slider__arrow slider__arrow_prev'>
+					<SwitchButton onClick={prevSlide} className='slider__arrow slider__arrow_prev'>
 						<img src={arrow} alt="назад" />
-					</SliderArrow>
-					<SliderArrow onClick={nextSlide} className='slider__arrow slider__arrow_next'>
+					</SwitchButton>
+					<SwitchButton onClick={nextSlide} className='slider__arrow slider__arrow_next'>
 						<img src={arrow} alt="вперед" />
-					</SliderArrow>
+					</SwitchButton>
 				</div>
 				<UsualButton className='slider__button'>Подробнее</UsualButton>
 				<div className="slider__box">
