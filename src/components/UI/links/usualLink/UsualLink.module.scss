@@ -1,0 +1,14 @@
+.UsualLink {
+	font-size: 2rem;
+	color: var(--black);
+	text-decoration: underline;
+	cursor: pointer;
+
+	&:hover {
+		color: var(--azure);
+	}
+
+	&:active {
+		color: var(--black);
+	}
+}

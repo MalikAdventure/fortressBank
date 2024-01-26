@@ -2,12 +2,15 @@
 	padding: 60px 0px;
 
 	&__title {
+		margin-bottom: 60px;
+	}
+
+	&__buttons {
 		margin-bottom: 30px;
 	}
 
 	&__button {
 		margin-right: 30px;
-		margin-bottom: 30px;
 
 		&:last-child {
 			margin-right: 0;

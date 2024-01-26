@@ -4,13 +4,21 @@
 	flex-direction: column;
 	justify-content: space-between;
 
+	&__box {
+		margin-bottom: 30px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
 	&__name {
 		margin-bottom: 20px;
 	}
 
-	&__input {
-		margin-bottom: 30px;
-	}
+	// &__input {
+	// 	margin-bottom: 30px;
+	// }
 
 	&__buttons {
 		display: flex;

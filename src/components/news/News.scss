@@ -1,17 +1,22 @@
 .news {
 	padding: 60px;
 
+	&__title {
+		margin-bottom: 60px;
+	}
+
 	&__box {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 		margin-bottom: 60px;
 	}
 
 	&__item {
+		height: 100%;
 		background: var(--lightGrey);
 		border-radius: 30px;
-		width: 570px;
-		margin-right: 30px;
+		width: 32%;
 		margin-bottom: 30px;
 	}
 
@@ -21,6 +26,18 @@
 
 	&__text {
 		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__name {
+		margin-bottom: 20px;
+	}
+
+	&__description {
+		min-height: 100px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -33,4 +50,14 @@
 	&__img {
 		margin-right: 60px;
 	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	// &__title {
+	// 	margin-bottom: 30px;
+	// }
 }

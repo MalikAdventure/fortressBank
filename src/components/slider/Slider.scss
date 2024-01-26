@@ -58,6 +58,10 @@
 			background: var(--lightAzure);
 		}
 
+		&:active {
+			background: var(--black);
+		}
+
 		&_active {
 			background: var(--black)
 		}

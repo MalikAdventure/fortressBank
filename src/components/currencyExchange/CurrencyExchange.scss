@@ -1,0 +1,9 @@
+.currency-exchange {
+	padding: 60px 0px;
+	background: var(--lightGrey);
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+}
