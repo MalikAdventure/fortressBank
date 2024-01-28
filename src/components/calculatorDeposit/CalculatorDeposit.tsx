@@ -6,7 +6,6 @@ import UsualInput from '../UI/inputs/usualInput/UsualInput';
 import SwitchButton from '../UI/buttons/switchButton/SwitchButton';
 import AttractButton from '../UI/buttons/attractButton/AttractButton';
 
-//? Объединить с кредитом (одинаковые)
 const CalculatorDeposit = () => {
 
 	const months = [3, 6, 9, 12, 15, 18, 21, 24];

@@ -1,0 +1,36 @@
+.news {
+	padding: 60px;
+
+	&__title {
+		margin-bottom: 60px;
+	}
+
+	&__box {
+		margin: 0;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__status {
+		margin-bottom: 60px;
+	}
+}
+
+.news-telegram {
+	padding: 60px;
+	background: var(--lightGrey);
+	border-radius: 30px;
+	display: flex;
+
+	&__img {
+		margin-right: 60px;
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}

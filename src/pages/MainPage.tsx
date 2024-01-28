@@ -1,7 +1,7 @@
 import Slider from "../components/slider/Slider";
 import Calculator from "../components/calculator/Calculator";
 import CurrencyExchange from "../components/currencyExchange/CurrencyExchange";
-import News from "../components/news/News";
+import NewsList from "../components/newsList/NewsList";
 
 const MainPage = () => {
 
@@ -10,7 +10,7 @@ const MainPage = () => {
 			<Slider />
 			<Calculator />
 			<CurrencyExchange />
-			<News />
+			<NewsList />
 		</>
 	);
 };

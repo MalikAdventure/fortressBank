@@ -7,6 +7,8 @@ import CalculatorDeposit from '../calculatorDeposit/CalculatorDeposit';
 
 import UsualButton from '../UI/buttons/usualButton/UsualButton';
 
+//? Объединить кредит и депозит в один компонент (одинаковые)
+
 const Calculator = () => {
 
 	const [calculator, setCalculator] = useState('credit');
