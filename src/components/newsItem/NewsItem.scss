@@ -20,11 +20,20 @@
 	}
 
 	&__name {
+		min-height: 70px;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 		margin-bottom: 20px;
 	}
 
 	&__description {
-		min-height: 100px;
+		min-height: 110px;
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 		margin-bottom: 30px;
 	}
 }

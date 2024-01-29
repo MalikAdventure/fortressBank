@@ -1,12 +1,17 @@
-.services {
-	padding: 60px;
+.products {
+	padding: 60px 0;
+
+	&__title {
+		margin-bottom: 60px;
+	}
+
 	&__box {
 		display: flex;
 		flex-wrap: wrap;
 	}
 }
 
-.services-item {
+.products-item {
 	background: var(--lightGrey);
 	border-radius: 30px;
 	width: 570px;
@@ -19,5 +24,13 @@
 
 	&__box {
 		padding: 20px;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		margin-bottom: 30px;
 	}
 }

@@ -1,7 +1,10 @@
+import './SignIn.scss';
+
+import { IShippingFields } from "./SignInInterface";
+
 import { useForm, SubmitHandler } from "react-hook-form";
 
-import './SignIn.scss';
-import { IShippingFields } from "./SignInInterface";
+import AttractButton from '../UI/buttons/attractButton/AttractButton';
 
 //!!! https://www.youtube.com/watch?v=1_4yH0C9iq0&list=WL&index=12&t=426s
 //!!! доделать по видео 14:30
@@ -16,7 +19,7 @@ const SignIn = () => {
 	return (
 		<section className='sign-in'>
 			<div className='sign-in__container container'>
-				<h2 className="sign-in__title title-h2">Войти в аккаунт</h2>
+				<h2 className="sign-in__title title-section">Войти в аккаунт</h2>
 				<form onSubmit={handleSubmit(onSubmit)}>
 					<input
 						{...register('phone', {
@@ -31,7 +34,7 @@ const SignIn = () => {
 					/>
 					{errors?.password && <div style={{ color: 'red' }}>{errors.password.message}</div>}
 					<div>
-						<button>Войти</button>
+						<AttractButton>Войти</AttractButton>
 					</div>
 				</form>
 			</div>

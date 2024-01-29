@@ -26,7 +26,8 @@ const NewsList = () => {
 	const [fetchPosts, isPostsLoading, postError] = useFetching(async () => {
 		const response = await FortressServices.getAllNews(page);
 		setPosts([...posts, ...response.data]);
-		// setPosts([...posts, ...response.data]: INewsListPost[]);
+		// setPosts([...posts, ...response.data] as never);
+		// setPosts([...posts, ...response.data] as INewsListPost[]);
 		setPage(page + 1);
 		setTotalCount(response.headers['x-total-count']);
 	});

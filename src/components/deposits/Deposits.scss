@@ -1,5 +1,9 @@
 .deposits {
-	padding: 60px;
+	padding: 60px 0;
+
+	&__title {
+		margin-bottom: 60px;
+	}
 }
 
 .deposits-item {

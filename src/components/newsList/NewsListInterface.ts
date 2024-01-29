@@ -1,5 +1,5 @@
 export interface INewsListPost {
-	id: number;
-	title: string;
-	body: string;
+	id: number | never;
+	title: string | never;
+	body: string | never;
 }

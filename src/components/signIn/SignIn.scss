@@ -1,0 +1,13 @@
+.sign-in {
+	padding: 60px 0;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__title {
+		margin-bottom: 60px;
+	}
+}

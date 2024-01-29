@@ -1,5 +1,13 @@
 .credits {
-	padding: 60px;
+	padding: 60px 0;
+
+	&__title {
+		margin-bottom: 60px;
+	}
+
+	&__text {
+		margin-bottom: 30px;
+	}
 }
 
 .credits-item {
@@ -11,12 +19,22 @@
 	position: relative;
 	z-index: 0;
 
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
 	&__description {
 		width: 60%;
+		margin-bottom: 30px;
 	}
 
 	&__box {
 		display: flex;
+		margin-bottom: 60px;
 	}
 
 	&__item {

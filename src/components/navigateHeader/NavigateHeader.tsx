@@ -44,7 +44,7 @@ const NavigateHeader = ({ ...props }) => {
 						<Link to='/deposits' className={classNav}>Вклады</Link>
 					</li>
 					<li className='navigate-header-nav__item'>
-						<Link to='/services' className={classNav}>Услуги</Link>
+						<Link to='/products' className={classNav}>Услуги</Link>
 					</li>
 				</ul>
 			</nav>
